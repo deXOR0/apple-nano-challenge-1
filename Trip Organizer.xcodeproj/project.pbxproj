@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982E8E802818FCFB00BBC6DC /* TripsTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E8E7F2818FCFB00BBC6DC /* TripsTripTableViewCell.swift */; };
+		982E8E852819562900BBC6DC /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982E8E842819562900BBC6DC /* AddTripViewController.swift */; };
+		982F7134281A24C800E68234 /* ViewTripFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F7133281A24C700E68234 /* ViewTripFriendTableViewCell.swift */; };
+		982F7136281A257500E68234 /* ViewTripPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F7135281A257500E68234 /* ViewTripPlaceTableViewCell.swift */; };
+		982F7138281A2BC600E68234 /* EditTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F7137281A2BC600E68234 /* EditTripViewController.swift */; };
+		982F713A281A2FA100E68234 /* EditTripFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F7139281A2FA100E68234 /* EditTripFriendTableViewCell.swift */; };
+		982F713C281A2FB100E68234 /* EditTripPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F713B281A2FB100E68234 /* EditTripPlaceTableViewCell.swift */; };
+		982F713E281A3B8200E68234 /* CreateJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F713D281A3B8200E68234 /* CreateJournalViewController.swift */; };
 		984E2BAD2817E66C00015093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BAC2817E66C00015093 /* AppDelegate.swift */; };
 		984E2BAF2817E66C00015093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BAE2817E66C00015093 /* SceneDelegate.swift */; };
 		984E2BB12817E66C00015093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BB02817E66C00015093 /* ViewController.swift */; };
@@ -14,9 +22,51 @@
 		984E2BB72817E66C00015093 /* Trip_Organizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BB52817E66C00015093 /* Trip_Organizer.xcdatamodeld */; };
 		984E2BB92817E66D00015093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984E2BB82817E66D00015093 /* Assets.xcassets */; };
 		984E2BBC2817E66D00015093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984E2BBA2817E66D00015093 /* LaunchScreen.storyboard */; };
+		984E2BC628183DB300015093 /* InitialLoad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984E2BC528183DB300015093 /* InitialLoad.storyboard */; };
+		984E2BC828183DCF00015093 /* InitialLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BC728183DCF00015093 /* InitialLoadViewController.swift */; };
+		984E2BCA28183F8000015093 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BC928183F8000015093 /* FriendModel.swift */; };
+		984E2BCD2818474E00015093 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984E2BCC2818474E00015093 /* Onboarding.storyboard */; };
+		984E2BCF2818479000015093 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BCE2818479000015093 /* OnboardingViewController.swift */; };
+		984E2BD1281850E900015093 /* CloseKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E2BD0281850E900015093 /* CloseKeyboard.swift */; };
+		98529736281A42DB0045F677 /* MemoriesTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98529735281A42DB0045F677 /* MemoriesTripTableViewCell.swift */; };
+		98529738281A45090045F677 /* ViewMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98529737281A45090045F677 /* ViewMemoryViewController.swift */; };
+		9852973A281A50810045F677 /* ViewJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98529739281A50810045F677 /* ViewJournalViewController.swift */; };
+		9852973C281A594A0045F677 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9852973B281A594A0045F677 /* Settings.storyboard */; };
+		9852973E281A59780045F677 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852973D281A59780045F677 /* SettingsViewController.swift */; };
+		9875E16E28185DB900C51517 /* CircularUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875E16D28185DB900C51517 /* CircularUIView.swift */; };
+		9875E1702818D42700C51517 /* MainTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875E16F2818D42600C51517 /* MainTripTableViewCell.swift */; };
+		9875E1722818E14100C51517 /* RoundedCornerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875E1712818E14100C51517 /* RoundedCornerUIView.swift */; };
+		9875E1752818E6A100C51517 /* ExtremelyRoundedCornerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875E1742818E6A100C51517 /* ExtremelyRoundedCornerUIView.swift */; };
+		9875E1772818EE9800C51517 /* Trips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9875E1762818EE9800C51517 /* Trips.storyboard */; };
+		9875E1792818EEC100C51517 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9875E1782818EEC100C51517 /* TripsViewController.swift */; };
+		987D40E2281A405B006C64D6 /* Memories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987D40E1281A405B006C64D6 /* Memories.storyboard */; };
+		987D40E5281A407D006C64D6 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987D40E4281A407D006C64D6 /* MemoriesViewController.swift */; };
+		987F08E52819A4C600B24A87 /* BucketListPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F08E42819A4C600B24A87 /* BucketListPlaceTableViewCell.swift */; };
+		987F08E92819A79C00B24A87 /* AddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F08E82819A79C00B24A87 /* AddPlaceViewController.swift */; };
+		987F08EB2819B12300B24A87 /* ViewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F08EA2819B12300B24A87 /* ViewPlaceViewController.swift */; };
+		987F08ED2819B5D200B24A87 /* EditPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F08EC2819B5D200B24A87 /* EditPlaceViewController.swift */; };
+		988C44B8281A5FD6007AC1C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C44B7281A5FD6007AC1C9 /* ProfileViewController.swift */; };
+		988C44BA281A5FED007AC1C9 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C44B9281A5FED007AC1C9 /* UserDataViewController.swift */; };
+		988C44BC281A5FFF007AC1C9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988C44BB281A5FFF007AC1C9 /* AboutViewController.swift */; };
+		989386862819718100A923E0 /* AddTripFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989386852819718100A923E0 /* AddTripFriendTableViewCell.swift */; };
+		989386882819718D00A923E0 /* AddTripPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989386872819718D00A923E0 /* AddTripPlaceTableViewCell.swift */; };
+		98CF8BBB2819A0B20000EB96 /* BucketList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CF8BBA2819A0B20000EB96 /* BucketList.storyboard */; };
+		98CF8BBE2819A0FE0000EB96 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CF8BBD2819A0FE0000EB96 /* BucketListViewController.swift */; };
+		98DAFCD9281961B5007EDA70 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DAFCD8281961B5007EDA70 /* CircularImageView.swift */; };
+		98F8458B2819BE75007E861E /* PickPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8458A2819BE75007E861E /* PickPlacesViewController.swift */; };
+		98F8458D2819C067007E861E /* PickPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8458C2819C067007E861E /* PickPlaceTableViewCell.swift */; };
+		98F8458F281A1D98007E861E /* ViewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8458E281A1D98007E861E /* ViewTripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982E8E7F2818FCFB00BBC6DC /* TripsTripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTripTableViewCell.swift; sourceTree = "<group>"; };
+		982E8E842819562900BBC6DC /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		982F7133281A24C700E68234 /* ViewTripFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTripFriendTableViewCell.swift; sourceTree = "<group>"; };
+		982F7135281A257500E68234 /* ViewTripPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTripPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		982F7137281A2BC600E68234 /* EditTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripViewController.swift; sourceTree = "<group>"; };
+		982F7139281A2FA100E68234 /* EditTripFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripFriendTableViewCell.swift; sourceTree = "<group>"; };
+		982F713B281A2FB100E68234 /* EditTripPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		982F713D281A3B8200E68234 /* CreateJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalViewController.swift; sourceTree = "<group>"; };
 		984E2BA92817E66C00015093 /* Trip Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		984E2BAC2817E66C00015093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984E2BAE2817E66C00015093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +76,40 @@
 		984E2BB82817E66D00015093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984E2BBB2817E66D00015093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		984E2BBD2817E66D00015093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984E2BC528183DB300015093 /* InitialLoad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialLoad.storyboard; sourceTree = "<group>"; };
+		984E2BC728183DCF00015093 /* InitialLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLoadViewController.swift; sourceTree = "<group>"; };
+		984E2BC928183F8000015093 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		984E2BCC2818474E00015093 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		984E2BCE2818479000015093 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		984E2BD0281850E900015093 /* CloseKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseKeyboard.swift; sourceTree = "<group>"; };
+		98529735281A42DB0045F677 /* MemoriesTripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesTripTableViewCell.swift; sourceTree = "<group>"; };
+		98529737281A45090045F677 /* ViewMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMemoryViewController.swift; sourceTree = "<group>"; };
+		98529739281A50810045F677 /* ViewJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewJournalViewController.swift; sourceTree = "<group>"; };
+		9852973B281A594A0045F677 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9852973D281A59780045F677 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9875E16D28185DB900C51517 /* CircularUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularUIView.swift; sourceTree = "<group>"; };
+		9875E16F2818D42600C51517 /* MainTripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTripTableViewCell.swift; sourceTree = "<group>"; };
+		9875E1712818E14100C51517 /* RoundedCornerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerUIView.swift; sourceTree = "<group>"; };
+		9875E1742818E6A100C51517 /* ExtremelyRoundedCornerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtremelyRoundedCornerUIView.swift; sourceTree = "<group>"; };
+		9875E1762818EE9800C51517 /* Trips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trips.storyboard; sourceTree = "<group>"; };
+		9875E1782818EEC100C51517 /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		987D40E1281A405B006C64D6 /* Memories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memories.storyboard; sourceTree = "<group>"; };
+		987D40E4281A407D006C64D6 /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		987F08E42819A4C600B24A87 /* BucketListPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		987F08E82819A79C00B24A87 /* AddPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceViewController.swift; sourceTree = "<group>"; };
+		987F08EA2819B12300B24A87 /* ViewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPlaceViewController.swift; sourceTree = "<group>"; };
+		987F08EC2819B5D200B24A87 /* EditPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlaceViewController.swift; sourceTree = "<group>"; };
+		988C44B7281A5FD6007AC1C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		988C44B9281A5FED007AC1C9 /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
+		988C44BB281A5FFF007AC1C9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		989386852819718100A923E0 /* AddTripFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripFriendTableViewCell.swift; sourceTree = "<group>"; };
+		989386872819718D00A923E0 /* AddTripPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		98CF8BBA2819A0B20000EB96 /* BucketList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BucketList.storyboard; sourceTree = "<group>"; };
+		98CF8BBD2819A0FE0000EB96 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
+		98DAFCD8281961B5007EDA70 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		98F8458A2819BE75007E861E /* PickPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickPlacesViewController.swift; sourceTree = "<group>"; };
+		98F8458C2819C067007E861E /* PickPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		98F8458E281A1D98007E861E /* ViewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +123,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		982E8E812818FD0200BBC6DC /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				98529734281A42AF0045F677 /* Memories */,
+				987F08E32819A48000B24A87 /* Bucket List */,
+				987F08E22819A46A00B24A87 /* Trips */,
+				9875E16F2818D42600C51517 /* MainTripTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		984E2BA02817E66C00015093 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +155,141 @@
 			children = (
 				984E2BAC2817E66C00015093 /* AppDelegate.swift */,
 				984E2BAE2817E66C00015093 /* SceneDelegate.swift */,
-				984E2BB02817E66C00015093 /* ViewController.swift */,
-				984E2BB22817E66C00015093 /* Main.storyboard */,
+				982E8E812818FD0200BBC6DC /* TableViewCell */,
+				9875E1732818E67300C51517 /* CustomUIView */,
+				984E2BCB28183F8600015093 /* Model */,
+				984E2BC32817EB1100015093 /* ViewController */,
+				984E2BC42817EB3400015093 /* View */,
 				984E2BB82817E66D00015093 /* Assets.xcassets */,
-				984E2BBA2817E66D00015093 /* LaunchScreen.storyboard */,
 				984E2BBD2817E66D00015093 /* Info.plist */,
 				984E2BB52817E66C00015093 /* Trip_Organizer.xcdatamodeld */,
 			);
 			path = "Trip Organizer";
+			sourceTree = "<group>";
+		};
+		984E2BC32817EB1100015093 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9852973F281A597E0045F677 /* Settings */,
+				987D40E3281A406E006C64D6 /* Memories */,
+				98CF8BBC2819A0E00000EB96 /* Bucket List */,
+				987F08EE2819BAFA00B24A87 /* Trips */,
+				984E2BB02817E66C00015093 /* ViewController.swift */,
+				984E2BD0281850E900015093 /* CloseKeyboard.swift */,
+				984E2BC728183DCF00015093 /* InitialLoadViewController.swift */,
+				984E2BCE2818479000015093 /* OnboardingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		984E2BC42817EB3400015093 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				984E2BBA2817E66D00015093 /* LaunchScreen.storyboard */,
+				984E2BC528183DB300015093 /* InitialLoad.storyboard */,
+				984E2BCC2818474E00015093 /* Onboarding.storyboard */,
+				984E2BB22817E66C00015093 /* Main.storyboard */,
+				9875E1762818EE9800C51517 /* Trips.storyboard */,
+				987D40E1281A405B006C64D6 /* Memories.storyboard */,
+				98CF8BBA2819A0B20000EB96 /* BucketList.storyboard */,
+				9852973B281A594A0045F677 /* Settings.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		984E2BCB28183F8600015093 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				984E2BC928183F8000015093 /* FriendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98529734281A42AF0045F677 /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				98529735281A42DB0045F677 /* MemoriesTripTableViewCell.swift */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		9852973F281A597E0045F677 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9852973D281A59780045F677 /* SettingsViewController.swift */,
+				988C44B7281A5FD6007AC1C9 /* ProfileViewController.swift */,
+				988C44B9281A5FED007AC1C9 /* UserDataViewController.swift */,
+				988C44BB281A5FFF007AC1C9 /* AboutViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9875E1732818E67300C51517 /* CustomUIView */ = {
+			isa = PBXGroup;
+			children = (
+				9875E1712818E14100C51517 /* RoundedCornerUIView.swift */,
+				9875E16D28185DB900C51517 /* CircularUIView.swift */,
+				98DAFCD8281961B5007EDA70 /* CircularImageView.swift */,
+				9875E1742818E6A100C51517 /* ExtremelyRoundedCornerUIView.swift */,
+			);
+			path = CustomUIView;
+			sourceTree = "<group>";
+		};
+		987D40E3281A406E006C64D6 /* Memories */ = {
+			isa = PBXGroup;
+			children = (
+				987D40E4281A407D006C64D6 /* MemoriesViewController.swift */,
+				98529737281A45090045F677 /* ViewMemoryViewController.swift */,
+				98529739281A50810045F677 /* ViewJournalViewController.swift */,
+			);
+			path = Memories;
+			sourceTree = "<group>";
+		};
+		987F08E22819A46A00B24A87 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				982E8E7F2818FCFB00BBC6DC /* TripsTripTableViewCell.swift */,
+				989386852819718100A923E0 /* AddTripFriendTableViewCell.swift */,
+				989386872819718D00A923E0 /* AddTripPlaceTableViewCell.swift */,
+				98F8458C2819C067007E861E /* PickPlaceTableViewCell.swift */,
+				982F7133281A24C700E68234 /* ViewTripFriendTableViewCell.swift */,
+				982F7135281A257500E68234 /* ViewTripPlaceTableViewCell.swift */,
+				982F7139281A2FA100E68234 /* EditTripFriendTableViewCell.swift */,
+				982F713B281A2FB100E68234 /* EditTripPlaceTableViewCell.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		987F08E32819A48000B24A87 /* Bucket List */ = {
+			isa = PBXGroup;
+			children = (
+				987F08E42819A4C600B24A87 /* BucketListPlaceTableViewCell.swift */,
+			);
+			path = "Bucket List";
+			sourceTree = "<group>";
+		};
+		987F08EE2819BAFA00B24A87 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				9875E1782818EEC100C51517 /* TripsViewController.swift */,
+				982E8E842819562900BBC6DC /* AddTripViewController.swift */,
+				98F8458A2819BE75007E861E /* PickPlacesViewController.swift */,
+				98F8458E281A1D98007E861E /* ViewTripViewController.swift */,
+				982F7137281A2BC600E68234 /* EditTripViewController.swift */,
+				982F713D281A3B8200E68234 /* CreateJournalViewController.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		98CF8BBC2819A0E00000EB96 /* Bucket List */ = {
+			isa = PBXGroup;
+			children = (
+				98CF8BBD2819A0FE0000EB96 /* BucketListViewController.swift */,
+				987F08E82819A79C00B24A87 /* AddPlaceViewController.swift */,
+				987F08EA2819B12300B24A87 /* ViewPlaceViewController.swift */,
+				987F08EC2819B5D200B24A87 /* EditPlaceViewController.swift */,
+			);
+			path = "Bucket List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +351,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				984E2BBC2817E66D00015093 /* LaunchScreen.storyboard in Resources */,
+				98CF8BBB2819A0B20000EB96 /* BucketList.storyboard in Resources */,
+				984E2BCD2818474E00015093 /* Onboarding.storyboard in Resources */,
+				987D40E2281A405B006C64D6 /* Memories.storyboard in Resources */,
 				984E2BB92817E66D00015093 /* Assets.xcassets in Resources */,
+				9875E1772818EE9800C51517 /* Trips.storyboard in Resources */,
+				9852973C281A594A0045F677 /* Settings.storyboard in Resources */,
 				984E2BB42817E66C00015093 /* Main.storyboard in Resources */,
+				984E2BC628183DB300015093 /* InitialLoad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +370,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				984E2BB12817E66C00015093 /* ViewController.swift in Sources */,
+				982F7134281A24C800E68234 /* ViewTripFriendTableViewCell.swift in Sources */,
+				982F7136281A257500E68234 /* ViewTripPlaceTableViewCell.swift in Sources */,
+				987D40E5281A407D006C64D6 /* MemoriesViewController.swift in Sources */,
+				9875E1722818E14100C51517 /* RoundedCornerUIView.swift in Sources */,
+				9875E16E28185DB900C51517 /* CircularUIView.swift in Sources */,
+				987F08ED2819B5D200B24A87 /* EditPlaceViewController.swift in Sources */,
+				98529738281A45090045F677 /* ViewMemoryViewController.swift in Sources */,
+				984E2BCA28183F8000015093 /* FriendModel.swift in Sources */,
+				988C44BA281A5FED007AC1C9 /* UserDataViewController.swift in Sources */,
 				984E2BAD2817E66C00015093 /* AppDelegate.swift in Sources */,
+				98DAFCD9281961B5007EDA70 /* CircularImageView.swift in Sources */,
+				98F8458B2819BE75007E861E /* PickPlacesViewController.swift in Sources */,
+				98CF8BBE2819A0FE0000EB96 /* BucketListViewController.swift in Sources */,
+				987F08E52819A4C600B24A87 /* BucketListPlaceTableViewCell.swift in Sources */,
+				989386862819718100A923E0 /* AddTripFriendTableViewCell.swift in Sources */,
+				9852973A281A50810045F677 /* ViewJournalViewController.swift in Sources */,
+				987F08E92819A79C00B24A87 /* AddPlaceViewController.swift in Sources */,
+				98F8458F281A1D98007E861E /* ViewTripViewController.swift in Sources */,
+				982E8E852819562900BBC6DC /* AddTripViewController.swift in Sources */,
+				982E8E802818FCFB00BBC6DC /* TripsTripTableViewCell.swift in Sources */,
+				9875E1702818D42700C51517 /* MainTripTableViewCell.swift in Sources */,
+				9875E1792818EEC100C51517 /* TripsViewController.swift in Sources */,
+				984E2BC828183DCF00015093 /* InitialLoadViewController.swift in Sources */,
+				9875E1752818E6A100C51517 /* ExtremelyRoundedCornerUIView.swift in Sources */,
+				984E2BCF2818479000015093 /* OnboardingViewController.swift in Sources */,
+				9852973E281A59780045F677 /* SettingsViewController.swift in Sources */,
+				987F08EB2819B12300B24A87 /* ViewPlaceViewController.swift in Sources */,
+				98529736281A42DB0045F677 /* MemoriesTripTableViewCell.swift in Sources */,
+				988C44B8281A5FD6007AC1C9 /* ProfileViewController.swift in Sources */,
+				982F7138281A2BC600E68234 /* EditTripViewController.swift in Sources */,
+				984E2BD1281850E900015093 /* CloseKeyboard.swift in Sources */,
 				984E2BB72817E66C00015093 /* Trip_Organizer.xcdatamodeld in Sources */,
+				982F713A281A2FA100E68234 /* EditTripFriendTableViewCell.swift in Sources */,
+				989386882819718D00A923E0 /* AddTripPlaceTableViewCell.swift in Sources */,
+				98F8458D2819C067007E861E /* PickPlaceTableViewCell.swift in Sources */,
+				982F713C281A2FB100E68234 /* EditTripPlaceTableViewCell.swift in Sources */,
+				982F713E281A3B8200E68234 /* CreateJournalViewController.swift in Sources */,
+				988C44BC281A5FFF007AC1C9 /* AboutViewController.swift in Sources */,
 				984E2BAF2817E66C00015093 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +558,7 @@
 				DEVELOPMENT_TEAM = FZ22T3BM95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Trip Organizer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MyTrip;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +587,7 @@
 				DEVELOPMENT_TEAM = FZ22T3BM95;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Trip Organizer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MyTrip;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
